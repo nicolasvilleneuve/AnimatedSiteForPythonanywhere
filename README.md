@@ -8,7 +8,7 @@ This website uses Django for the backend, Node.js, three.js, html and css for th
 
 https://nicvilleneuve.pythonanywhere.com/
 
-It is meant to serve as my new portfolio website, showing I've got the chops to be a good full stack developer.
+It is meant to serve as my new portfolio website, as I continue on the path of full stack development.
 
 It is best experienced when scrolled through slowly.
 
