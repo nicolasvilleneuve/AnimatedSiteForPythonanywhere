@@ -49,12 +49,12 @@ function addStar() {
 
 Array(500).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('./static/space.jpg');
 scene.background = spaceTexture;
 
 
 // MY AVATAR //
-const nicTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/laszloandi.png');
+const nicTexture = new THREE.TextureLoader().load('./static/laszloandi.png');
 
 const nic = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -68,8 +68,8 @@ nic.position.setX(10);
 
 // EARTH //
 
-const earthTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/earth.jpg');
-const surfaceTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/surface.jpg');
+const earthTexture = new THREE.TextureLoader().load('./static/earth.jpg');
+const surfaceTexture = new THREE.TextureLoader().load('./static/surface.jpg');
 
 const earth = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
@@ -86,7 +86,7 @@ earth.position.setX(-20);
 earth.position.y = 8;
 
 // Python //
-const pythonTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/python.png');
+const pythonTexture = new THREE.TextureLoader().load('./static/python.png');
 
 const python = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -99,7 +99,7 @@ python.position.z = 5;
 python.position.setX(-10);
 
 // JS //
-const jsTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/js.png');
+const jsTexture = new THREE.TextureLoader().load('./static/js.png');
 
 const js = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -113,7 +113,7 @@ js.position.setX(-5);
 js.position.setY(10);
 
 // SQL //
-const sqlTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/SQL_logo.png');
+const sqlTexture = new THREE.TextureLoader().load('./static/SQL_logo.png');
 
 const sql = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -127,7 +127,7 @@ sql.position.setX(-7);
 sql.position.setY(-10);
 
 // R //
-const rTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/R_logo.png');
+const rTexture = new THREE.TextureLoader().load('./static/R_logo.png');
 
 const r = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -142,7 +142,7 @@ r.position.setY(10);
 
 
 // HTML //
-const htmlTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/HTML5_logo.png');
+const htmlTexture = new THREE.TextureLoader().load('./static/HTML5_logo.png');
 
 const html = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -156,7 +156,7 @@ html.position.setX(7);
 html.position.setY(-13);
 
 // CSS //
-const cssTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/CSS_logo.png');
+const cssTexture = new THREE.TextureLoader().load('./static/CSS_logo.png');
 
 const css = new THREE.Mesh(
     new THREE.BoxGeometry(3,3,3),
@@ -172,8 +172,8 @@ css.position.setY(-20);
 
 // AAFC //
 
-const marsTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/mars.jpeg');
-const marsSurfaceTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/AAFC.png');
+const marsTexture = new THREE.TextureLoader().load('./static/mars.jpeg');
+const marsSurfaceTexture = new THREE.TextureLoader().load('./static/AAFC.png');
 
 const mars = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
@@ -191,7 +191,7 @@ mars.position.y = 20;
 
 // Me With Trees //
 
-const treeTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/mewithtrees.jpeg');
+const treeTexture = new THREE.TextureLoader().load('./static/mewithtrees.jpeg');
 
 const trees = new THREE.Mesh(
     new THREE.BoxGeometry(4,4,4),
@@ -207,7 +207,7 @@ trees.position.x = -8;
 trees.position.y = 0;
 
 // MOON //
-const moonTexture = new THREE.TextureLoader().load('./static/src/dist/bundle.js/images/moon.jpg');
+const moonTexture = new THREE.TextureLoader().load('./static/moon.jpg');
 
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3,32,32),
