@@ -13,7 +13,7 @@ It is meant to serve as my new portfolio website, as I continue on the path of f
 It is best experienced when scrolled through slowly.
 
 ## Usage 
-You can access the website itself trhough the link provided above (https://nicvilleneuve.pythonanywhere.com/). 
+You can access the website itself trhough the link provided above. 
 I have uploaded to the entire project to github so, if this website inspires you to do something similar, and you need a jumping off point, you can find the files that matter at the following path: AnimatedSiteForPythonanywhere/portfoliosite/viteproject/static/src/dist/bundle.js/
 
 ## Contributing
